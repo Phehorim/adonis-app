@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {{ style('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css') }}
+    {{ style('bower_components/bootstrap/dist/css/bootstrap.css') }}
     <title>Adonis app</title>
   </head>
   <body>
@@ -28,8 +28,7 @@
     <div class="container">
       @!section('content')
     </div>
-    {{ script('https://code.jquery.com/jquery-3.3.1.slim.min.js') }}
-    {{ script('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js') }}
-    {{ script('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js') }}
+    {{ script('bower_components/jquery/dist/jquery.js') }}
+    {{ script('bower_components/bootstrap/dist/js/bootstrap.js') }}
   </body>
 </html>
